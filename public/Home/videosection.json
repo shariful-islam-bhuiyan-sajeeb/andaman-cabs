@@ -1,0 +1,11 @@
+[
+  {
+    "_id": 1,
+    "videoImg": "https://www.andamancab.in/uploads/about-us.jpg",
+    "title": "Watch on ",
+    "category": "video",
+    "description": "",
+    "type": "SD/HD",
+    "video": "https://www.youtube.com/embed/H_BtXn5kccg"
+  }
+]

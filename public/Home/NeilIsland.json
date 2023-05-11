@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Neil Island Tour on Cab (Without Sitapur Sightseeing)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/75775.jpg",
+    "rate": "1800/-"
+  },
+  {
+    "id": 2,
+    "title": "Neil Island (With Sitapur Sightseeing)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/39693.jpg",
+    "rate": "2400/-"
+  },
+  {
+    "id": 3,
+    "title": "Sunrise at Neil Island",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/16137.jpg",
+    "rate": "1400/-"
+  }
+]

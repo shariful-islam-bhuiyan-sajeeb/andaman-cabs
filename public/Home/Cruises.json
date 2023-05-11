@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/88256.jpg",
+    "title": "Green Ocean 1"
+  },
+  {
+    "id": 2,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/11360.jpg",
+    "title": "ITT Majestic"
+  },
+  {
+    "id": 3,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/49761.jpg",
+    "title": "Nautika Lite"
+  },
+  {
+    "id": 4,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/48516.jpg",
+    "title": "Green Ocean 2 "
+  },
+  {
+    "id": 5,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/79683.jpg",
+    "title": "Nautika "
+  },
+  {
+    "id": 6,
+    "img": "https://www.andamancab.in/uploads/cruise-photos/27811.jpg",
+    "title": "Makruzz"
+  }
+]
