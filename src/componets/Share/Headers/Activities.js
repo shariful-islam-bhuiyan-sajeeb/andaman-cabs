@@ -5,8 +5,8 @@ const Activities = () => {
     <div className="flex items-start gap-x-6">
       <div className="grid xl:grid-cols-4 lg:grid-cols-3 gap-2  w-full ">
         {/*  ==============scuba driving-1  */}
-        <div className="flex  flex-col hover:bg-[#ffd000]">
-          <div className="flex items-center lg:gap-x-2 gap-x-1 bg-[#d9d9d9]  lg:py-2 py-1.5 px-2 border-0 rounded-none  ">
+        <div className="flex  flex-col hover:bg-[#ffd000] group">
+          <div className="flex items-center lg:gap-x-2 gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000]   lg:py-2 py-1.5 px-2 border-0 rounded-none  ">
             <div className="  ">
               <img
                 className="lg:w-10 h-8  "

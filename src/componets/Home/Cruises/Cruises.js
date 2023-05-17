@@ -1,5 +1,4 @@
 import React from "react";
-import CruisesCard from "./CruisesCard";
 
 const Cruises = () => {
   return (
@@ -17,7 +16,7 @@ const Cruises = () => {
           alt=""
         />
       </div>
-      <CruisesCard />
+      {/* <CruisesCard /> */}
     </div>
   );
 };

@@ -3,7 +3,6 @@ import Cabs from "./Cabs";
 import CarouselBanner from "./CarouselBanner";
 import HavelockIsland from "./Havelock Island/HavelockIsland";
 import NeilIsland from "./Havelock Island/NeilIsland";
-import Cruises from "./Cruises/Cruises";
 import PopularActivities from "./Popular Activities/PopularActivities";
 import OurStory from "./Our Story/OurStory";
 import PopularDestinations from "./Popular Destinations/PopularDestinations";
@@ -12,7 +11,7 @@ import Certified from "./Certified/Certified";
 
 const Home = () => {
   return (
-    <div>
+    <div className="max-w-[1940px] mx-auto">
       <div>
         {" "}
         <CarouselBanner />{" "}
@@ -21,7 +20,7 @@ const Home = () => {
         <Cabs />
         <HavelockIsland />
         <NeilIsland />
-        <Cruises />
+        {/* <Cruises /> */}
         <PopularActivities />
       </div>
       <div className="w-full ">

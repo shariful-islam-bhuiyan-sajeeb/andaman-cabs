@@ -21,7 +21,7 @@ const Certified = () => {
       {/*============================= card section  */}
       <div className="grid lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2  lg:gap-3 gap-2  lg:mt-6 mb-20 mt-4">
         {/* =============== Andaman Tourism card  */}
-        <div className="shadow-inner ">
+        <div className="shadow-inner translate hover:-translate-y-2 transition-transform duration-700  ">
           <div className="bg-white p-6 rounded  shadow-2xl border hover ">
             <div className="flex flex-col items-center text-black ">
               <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
@@ -44,7 +44,7 @@ const Certified = () => {
           </div>
         </div>
         {/* =============== IATTE card */}
-        <div className="bg-white p-6 rounded border shadow-2xl hover ">
+        <div className="bg-white p-6 rounded border shadow-2xl translate hover:-translate-y-2 transition-transform duration-700  ">
           <div className="flex flex-col items-center text-black ">
             <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
               <img
@@ -62,7 +62,7 @@ const Certified = () => {
           </div>
         </div>
         {/*  =============We are Official Partner */}
-        <div className="bg-white p-6 rounded border shadow-2xl hover ">
+        <div className="bg-white p-6 rounded border shadow-2xl translate hover:-translate-y-2 transition-transform duration-700  ">
           <div className="flex flex-col items-center text-black ">
             <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
               <img
@@ -79,7 +79,7 @@ const Certified = () => {
           </div>
         </div>
         {/* ==================== ANTAO */}
-        <div className="bg-white p-6 rounded border shadow-2xl hover ">
+        <div className="bg-white p-6 rounded border shadow-2xl translate hover:-translate-y-2 transition-transform duration-700  ">
           <div className="flex flex-col items-center text-black ">
             <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
               <img
@@ -97,7 +97,7 @@ const Certified = () => {
           </div>
         </div>
         {/* ========================IATO */}
-        <div className="bg-white p-6 rounded border shadow-2xl hover ">
+        <div className="bg-white p-6 rounded border shadow-2xl translate hover:-translate-y-2 transition-transform duration-700  ">
           <div className="flex flex-col items-center text-black ">
             <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
               <img

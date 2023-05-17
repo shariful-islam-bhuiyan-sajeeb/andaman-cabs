@@ -15,16 +15,16 @@ const OurStory = () => {
           alt=""
         />
       </div>
-      <div className=" w-full bg-[#252d35] ">
+      <div className=" w-full bg-[#252d35] py-6 ">
         <div className=" flex lg:flex-row flex-col items-start gap-6 xl:w-[1000px] lg:w-[800px] md:w-[700px] sm:w-10/12 w-full mx-auto   text-white lg:px-0 px-4 lg:pt-20 lg:pb-48 md:pb-32 sm:pb-28 pb-24 ">
-          <div className="lg:w-1/2 w-full mx-auto">
-            <div className=" flex items-center ">
+          <div className=" w-full mx-auto">
+            <div className=" flex items-center sm:px-0 px-2 ">
               <div className=" xl:w-[50px] lg:w-[40px] md:w-[30px] sm:w-[25px] w-[30px] h-[2px] bg-[#ffd000]"></div>
               <div className=" xl:w-[50px] lg:w-[40px] md:w-[30px] sm:w-[25px] w-[30px] h-[2px] bg-[#e1e1e1]"></div>
             </div>
             <div
               style={{ fontFamily: "Poppins" }}
-              className="flex flex-col items-start text-left text-white lg:mt-7 md:mt-5 mt-3 lg:px-0 px-4"
+              className="flex flex-col items-start text-left text-white lg:mt-7 md:mt-5 mt-3 sm:px-0 px-2"
             >
               <h1 className=" lg:text-2xl md:text-xl sm:text-lg text-md font-bold ">
                 Know About Us
@@ -35,11 +35,11 @@ const OurStory = () => {
               </p>
             </div>
             {/* =========================== card section  */}
-            <div className=" grid md:grid-cols-2 grid-col-1 lg:gap-6 gap-4  lg:mt-6 mt-4">
+            <div className=" grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  lg:gap-4 sm:gap-3 gap-2  lg:mt-6 mt-4">
               {/* ============quality card  */}
-              <div className="bg-white p-6 rounded translate hover:translate-all ">
+              <div className="flex flex-col justify-center bg-white sm:px-6 px-3 sm:py-6 py-3 rounded translate hover:-translate-y-2 transition-transform duration-700 ">
                 <div className="flex flex-col items-center text-black ">
-                  <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+                  <div className="lg:text-2xl md:text-4xl sm:text-2xl text-xl">
                     <RiShieldCrossLine />
                   </div>
                   <div className="font-serif lg:mt-4 md:mt-3 mt-2">
@@ -52,9 +52,9 @@ const OurStory = () => {
                 </div>
               </div>
               {/* ==========================time watch card  */}
-              <div className="bg-white p-6 rounded ">
+              <div className="flex flex-col justify-center sm:px-6 px-3 sm:py-6 py-3 bg-white  rounded translate hover:-translate-y-2 transition-transform duration-700 ">
                 <div className="flex flex-col items-center text-black ">
-                  <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+                  <div className="lg:text-2xl md:text-4xl sm:text-2xl text-xl">
                     <IoIosTimer />
                   </div>
                   <div className="font-serif lg:mt-4 md:mt-3 mt-2">
@@ -67,9 +67,9 @@ const OurStory = () => {
                 </div>
               </div>
               {/* ===========================Experts card  */}
-              <div className="bg-white p-6 rounded ">
+              <div className="bg-white flex flex-col justify-center sm:px-6 px-3 sm:py-6 py-3 rounded translate hover:-translate-y-2 transition-transform duration-700 ">
                 <div className="flex flex-col items-center text-black ">
-                  <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+                  <div className="lg:text-2xl md:text-4xl sm:text-2xl text-xl">
                     <ImUsers />
                   </div>
                   <div className="font-serif lg:mt-4 md:mt-3 mt-2">
@@ -82,9 +82,9 @@ const OurStory = () => {
                 </div>
               </div>
               {/*======================= On time Pickup card  */}
-              <div className="bg-white p-6 rounded ">
+              <div className="bg-white flex flex-col justify-center sm:px-6 px-3 sm:py-6 py-3 rounded translate hover:-translate-y-2 transition-transform duration-700 ">
                 <div className="flex flex-col items-center text-black ">
-                  <div className="lg:text-6xl md:text-4xl sm:text-2xl text-xl">
+                  <div className="lg:text-2xl md:text-4xl sm:text-2xl text-xl">
                     <BiCar />
                   </div>
                   <div className="font-serif lg:mt-4 md:mt-3 mt-2">
@@ -99,20 +99,12 @@ const OurStory = () => {
             </div>
             {/* =================== button  */}
             <div className=" xl:mt-7 lg:mt-6 md:mt-4 mt-3 w-full mx-auto  ">
-              <button className="flex items-center justify-start gap-x-2  lg:text-lg  sm:text-md text-sm lg:font-bold font-medium font-serif rounded  lg:px-6 md:px-4 px-2 lg:py-2 py-1 translate-all duration-500  bg-[#ffd000] border hover:border-white hover:bg-[#252d35] text-black hover:text-white">
+              <button className="flex items-center justify-start gap-x-2  lg:text-lg  sm:text-md text-sm lg:font-bold font-medium font-serif rounded  lg:px-6 md:px-4 px-3 lg:py-2 py-2 translate-all duration-500  bg-[#ffd000] border hover:border-white hover:bg-[#252d35] text-black hover:text-white">
                 Know More
               </button>
             </div>
           </div>
           {/* =============== Our Story - Watch the Video section */}
-          <div className="lg:w-1/2 w-full mx-auto">
-            <div className="xl:text-2xl lg:text-xl text-md font-serif font-bold">
-              <h1> Our Story - Watch the Video</h1>
-            </div>
-            <div className="mt-4">
-              <VideoSet />
-            </div>
-          </div>
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const CustomerReviewVideo = () => {
         <div key={video._id}>
           <div className="">
             <>
-              <label htmlFor="videoModal" className=" ">
+              <label htmlFor="reviewModal" className=" ">
                 <img
                   className=" w-full h-full ease-in-out duration-500 transform hover:scale-95"
                   src={video?.videoImg}
@@ -28,27 +28,19 @@ const CustomerReviewVideo = () => {
               </label>
             </>
 
-            <input type="checkbox" id="videoModal" className="modal-toggle" />
-            <div className="modal ">
-              <div className="modal-box md:w-full w-10/12 mx-auto  max-w-5xl bg-transparent p-0 relative ">
-                <div className="modal-action">
-                  <label htmlFor="videoModal" className=" text-white">
-                    <RxCross2 className="text-2xl" />
-                  </label>
-                </div>
-                {isVideoOpen && (
-                  <iframe
-                    width="100%"
-                    height="90%"
-                    src={video?.video}
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
-                  ></iframe>
-                )}
-              </div>
-            </div>
+            {/* <div>
+              {isVideoOpen && (
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={video?.video}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              )}
+            </div> */}
           </div>
         </div>
       ))}

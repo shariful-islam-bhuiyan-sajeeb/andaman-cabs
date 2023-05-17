@@ -30,7 +30,7 @@ const CabCards = () => {
 
       {/* ========card section  */}
       <div className="grid  md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:mt-8 md:mt-6 mt-4 lg:gap-x-6 md:gap-3 sm:gap-4 gap-3 w-full lg:px-0 px-4">
-        {cabs?.map((cab) => (
+        {cabs?.slice(0, 3)?.map((cab) => (
           <div key={cab.id} className="relative w-full mx-auto">
             <div style={{ fontFamily: "Poppins" }} className="">
               <h2 className="flex items-center z-20 gap-x-1 absolute lg:right-3  right-1 lg:top-3 md:top-2 top-1 bg-black text-white lg:font-bold  font-medium lg:px-3 md:px-2 px-1  text-xs py-1 rounded-t-md rounded-r-md">

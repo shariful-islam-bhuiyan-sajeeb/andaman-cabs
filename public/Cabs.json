@@ -1,20 +1,100 @@
 [
   {
     "id": 1,
+    "name": "Sedan ",
+    "distance": "20",
     "title": "Airport Pick, Hotel Transfer Later, Cellular Jail visit,Corbyn's Cover Beach Cellular Jail, Light and Sound Show",
-    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg",
-    "rate": "2500/-"
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg"
   },
   {
     "id": 2,
+    "name": "SUV  ",
+    "distance": "Within 4 Kms",
     "title": "Jetty Pickup to Hotel within City Limit",
-    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg",
-    "rate": "300/-"
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg"
   },
   {
     "id": 3,
+    "name": "SUV  ",
+    "distance": "2-4  kms",
     "title": "Airport Drop from Hotel (City Limits)",
-    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg",
-    "rate": "2500/-"
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "SUV  ",
+    "distance": "4 kms",
+    "title": "Airport Pick, Hotel Transfer Later, Cellular Jail visit,Corbyn's Cover Beach Cellular Jail, Light and Sound Show",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/2127.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "SUV  ",
+    "distance": "6 kms",
+    "title": "Hotel to Cellular Jail Visit Drop & Pickup for Hotel (City Limits)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/38313.jpg"
+  },
+  {
+    "id": 6,
+    "name": "SUV  ",
+    "distance": "4 kms",
+    "title": "Drop to Fisheries Museum From Hotel (City Limits)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/46653.jpg"
+  },
+  {
+    "id": 7,
+    "name": "SUV  ",
+    "distance": "4 kms",
+    "title": "Drop to Anthropological museum (City Limits)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/52196.jpg"
+  },
+  {
+    "id": 8,
+    "name": "SUV  ",
+    "distance": "4 kms",
+    "title": "Samudrika Naval Museum Drop fro Hotel (City Limits)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/66651.jpg"
+  },
+  {
+    "id": 9,
+    "name": "SUV  ",
+    "distance": "5-7 kms",
+    "title": "Science Centre Museum Drop from Hotel (City Limits)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/85975.jpg"
+  },
+  {
+    "id": 10,
+    "name": "SUV  ",
+    "distance": "27 kms",
+    "title": "Chidiyatapu Sunset Beach Trip (Pickup & Drop to Hotel)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/99210.jpg"
+  },
+  {
+    "id": 11,
+    "name": "SUV  ",
+    "distance": "31 kms",
+    "title": "Wandoor Beach Trip (Pickup & Drop from Hotel)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/19933.jpg"
+  },
+  {
+    "id": 12,
+    "name": "SUV  ",
+    "distance": "208 kms",
+    "title": "Baratang Island Lime Stone Cave & Mud Volcano Trip (From Hotel)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/33842.jpg"
+  },
+  {
+    "id": 13,
+    "name": "SUV  ",
+    "distance": "15 kms",
+    "title": "Mount Manipur AKA Mount Harriet trip from Hotel (Pickup & Drop)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/70984.jpg"
+  },
+  {
+    "id": 14,
+    "name": "SUV  ",
+    "distance": "304 kms",
+    "title": "Diglipur Island Whole Trip from Hotel (All Sightseeing of Baratang Island, Rangat, Mayabunder, Diglipur and return)",
+    "img": "https://www.andamancab.in/uploads/vehicle-photos/97022.jpg"
   }
 ]

@@ -12,14 +12,9 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function CarouselBanner() {
   const [carousel, setCarousel] = useState([]);
-  useEffect(() => {
-    fetch("home/CarouselBanner.json")
-      .then((res) => res.json())
-      .then((data) => setCarousel(data));
-  }, []);
 
   return (
-    <div className="relative">
+    <div className="relative xl:pt-10 pt-0">
       <div className="absolute z-20   left-0 right-0 bottom-[0px]  w-full">
         <img
           className="  "
@@ -28,14 +23,6 @@ export default function CarouselBanner() {
         />
       </div>
       <Swiper
-        // loop={true}
-        // autoplay={{
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // }}
-        // navigation={true}
-        // modules={[Navigation]}
-        // className="mySwiper"
         centeredSlides={true}
         autoplay={{
           delay: 5000,
@@ -46,7 +33,7 @@ export default function CarouselBanner() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper "
       >
         <SwiperSlide className=" ">
           <div className=" relative ">

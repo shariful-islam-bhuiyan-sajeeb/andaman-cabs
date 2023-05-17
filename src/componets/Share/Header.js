@@ -7,11 +7,11 @@ const Header = () => {
   const leftMenuItems = (
     <>
       {/* ============================HOME */}
-      <li className="flex">
+      <Link to="/" className="flex">
         <button className="flex items-center font-semibold uppercase ">
           HOME
         </button>
-      </li>
+      </Link>
       {/* ============================= Know  */}
       <div className="dropdown dropdown-hover flex hover:text-[#ffd000] ">
         <label
@@ -133,7 +133,7 @@ const Header = () => {
           tabIndex={0}
           className="  dropdown-content absolute xl:-left-56 lg:-left-40 2xl:mt-16 xl:mt-14 lg:mt-[90px] flex items-center gap-x-1 text-left   shadow bg-white text-black 2xl:w-[1200px] xl:w-[1100px] lg:w-[950px] "
         >
-          <div className="   w-full  ">
+          <div className="  w-full  ">
             <Activities />
           </div>
         </div>
@@ -231,7 +231,10 @@ const Header = () => {
       </div>
       {/* ======================contact us */}
       <div className="flex hover:text-[#ffd000]">
-        <Link className="flex items-center uppercase font-semibold">
+        <Link
+          to="/ContactUs"
+          className="flex items-center uppercase font-semibold"
+        >
           contact us
         </Link>
       </div>
@@ -240,7 +243,7 @@ const Header = () => {
 
   return (
     <div>
-      <header className=" w-full fixed z-50 top-0  dark:bg-gray-800 dark:text-gray-100">
+      <header className=" w-full max-w-[1940px] mx-auto  fixed z-50 top-0 bg-[#252d35]  text-[#ffffff]">
         <div className="container flex items-center justify-between h-16 mx-auto lg:justify-center md:space-x-8">
           {/* ====================== left side menu items is here  */}
           <div

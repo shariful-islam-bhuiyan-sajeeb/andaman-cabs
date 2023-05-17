@@ -8,6 +8,7 @@ import Footer from "../Footer/Footer";
 
 const Drawer2 = () => {
   const [remove, setRemove] = useState(true);
+
   const handleRemove = () => {
     setRemove(false);
   };
@@ -53,74 +54,6 @@ const Drawer2 = () => {
           Location
           <MdKeyboardArrowDown className="text-lg text-gray-400" />
         </label>
-        {/* <div className="dropdown-content absolute -left-28 top-16 flex items-center gap-x-1 text-left  border bg-white text-black ">
-          <div className=" flex items-center gap-0.5 w-full  ">
-            <li className="flex items-center gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000] py-2 px-2 border-0 rounded-none w-52 ">
-              <div className="border-4 border-white  ">
-                <img
-                  className="w-10 "
-                  src="https://i.ibb.co/BVmR9vN/travel-usnews.jpg"
-                  alt=""
-                />
-              </div>
-              <p className="uppercase font-semibold text-[11px]">
-                PorBlair guide
-              </p>
-            </li>
-            <li className="flex items-center gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000] py-2 px-2 border-0 rounded-none w-52 ">
-              <div className="border-4 border-white  ">
-                <img
-                  className="w-10 "
-                  src="https://i.ibb.co/BVmR9vN/travel-usnews.jpg"
-                  alt=""
-                />
-              </div>
-              <p className="uppercase font-semibold text-[11px]">
-                {" "}
-                Havelock Island Guide
-              </p>
-            </li>
-            <li className="flex items-center gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000] py-2 px-2 border-0 rounded-none w-52 ">
-              <div className="border-4 border-white  ">
-                <img
-                  className="w-10 h-6 "
-                  src="https://i.ibb.co/W2p0mKc/download.jpg"
-                  alt=""
-                />
-              </div>
-              <p className="uppercase font-semibold text-[11px]">
-                {" "}
-                Neil Island guide
-              </p>
-            </li>
-            <li className="flex items-center gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000] py-2 px-2 border-0 rounded-none w-52 ">
-              <div className="border-4 border-white  ">
-                <img
-                  className="w-10 h-6 "
-                  src="https://ychef.files.bbci.co.uk/1280x720/p08rhml3.jpg"
-                  alt=""
-                />
-              </div>
-              <p className="uppercase font-semibold text-[11px]">
-                {" "}
-                baratang guide
-              </p>
-            </li>
-            <li className="flex items-center gap-x-1 bg-[#d9d9d9] hover:bg-[#ffd000] py-2 px-2 border-0 rounded-none w-52 ">
-              <div className="border-4 border-white  ">
-                <img
-                  className="w-10 h-6 "
-                  src="https://i.ibb.co/K5D7NLJ/download.jpg"
-                  alt=""
-                />
-              </div>
-              <p className="uppercase font-semibold text-[11px]">
-                {" "}
-                diglipur guide
-              </p>
-            </li>
-          </div>
-        </div> */}
       </div>
       {/*==============================Activities */}
       <div className="dropdown  flex relative border py-0 hover:bg-black hover:text-[#ffd000]">
